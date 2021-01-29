@@ -10,18 +10,18 @@ export default function Card ({min, max, name, img, onClose, id}) {
         </div>
         <Link to={`/weather-app/City/${id}`}>
         <div className="">
-          <h5 className="font-bold text-xl">{name}</h5>
+          <h5 className="font-bold text-xl text-green-500">{name}</h5>
           <div className="flex mt-5">
-            <div className="">
-              <p className='font-bold'>Min</p>
-              <p>{min}°</p>
+            <div>
+              <p className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-300 text-center'>Min</p>
+              <p className='font-semibold text-center'>{min}° ❄</p>
             </div>
             <div className="pl-8">
-              <p className='font-bold'>Max</p>
-              <p>{max}°</p>
+              <p className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-400 text-center'>Max</p>
+              <p className='font-semibold text-center'>{max}° 🌡</p>
             </div>
-            <div className="">
-              <img className="" src={"https://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
+            <div>
+              <img src={"https://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
             </div>
           </div>
         </div>

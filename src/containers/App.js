@@ -24,7 +24,7 @@ function App() {
 
   function onSearch(city) {
     //Llamado a la API del clima
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`)
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){
@@ -63,7 +63,7 @@ function App() {
 
   return (
     <Router>
-      <div className='flex flex-col h-screen'>
+      <div className='flex flex-col h-screen' id='wholeContainer'>
         <Route
         path='/weather-app'
         render={() => <Nav onSearch={onSearch}/>}

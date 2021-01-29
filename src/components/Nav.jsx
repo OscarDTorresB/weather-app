@@ -9,7 +9,7 @@ function Nav({onSearch}) {
       <div className='flex flex-col items-center p-5 sm:flex-row sm:justify-around'>
         <div className='font-bold text-2xl'>
           <Link to='/weather-app'>
-            <span className="font-bold text-gray-800 hover:text-gray-600">
+            <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400">
               Weather App
             </span>
           </Link>

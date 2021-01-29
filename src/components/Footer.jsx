@@ -27,7 +27,7 @@ const footer = () => {
                 </div>
             </div>
             <div className='flex justify-center text-sm mb-2 sm:mb-0 sm:h-full sm:items-center sm:justify-items-center'>
-                <span className='font-semibold text-gray-500'>This app was made by Oscar Torres</span>
+                <span className='font-semibold text-gray-500'>This app was made by Oscar Torres ✌ </span>
             </div>  
         </div>
     )
