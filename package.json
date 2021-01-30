@@ -15,8 +15,13 @@
     "prompt-sync": "^4.2.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sweetalert2": "^10.14.0",
+    "sweetalert2-react-content": "^3.2.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "scripts": {
