@@ -13,7 +13,7 @@ const about = () => {
       </div>
       <div className="text-gray-800 text-lg border-4 border-dashed px-2 mx-2 sm:px-4 sm:mx-4 sm:text-md md:text-sm">
         <p>
-          This is a free web application designed using React and Hooks and
+          This is a free web application designed using React, Redux and TailwindCSS and
           doesn't have any commercial purpouse. The weather forecasts are
           provided by Open Weather Map's API.
         </p>

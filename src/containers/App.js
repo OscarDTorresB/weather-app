@@ -17,7 +17,6 @@ import Footer from "../components/Footer";
 import { useSelector, useDispatch } from "react-redux";
 import { addCity } from "../actions/actions";
 
-const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 const MySwal = withReactComponent(Swal);
 
 function App() {
@@ -41,7 +40,7 @@ function App() {
   function onSearch(city) {
     //Llamado a la API del clima
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=imperial`
     )
       .then((r) => r.json())
       .then((response) => {
