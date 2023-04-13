@@ -31,7 +31,7 @@ const footer = () => {
         </div>
         <div className="m-5 sm:w-1/3">
           <a
-            href="https://github.com/LeonidasGangsta/"
+            href="https://github.com/OscarDTorresB/"
             target="_blank"
             rel="noreferrer"
             className="flex flex-col items-center"
